@@ -1,0 +1,27 @@
+{
+  "name": "@draconic/browserslist-config",
+  "description": "Browserslist configuration for the Draconic Design System.",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/draconic-design/draconic.git",
+    "directory": "config/browserslist-config"
+  },
+  "bugs": "https://github.com/draconic-design/draconic/issues",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "dragonspark",
+    "draconic",
+    "draconic-design-system",
+    "browserslist"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "packageManager": "yarn@4.1.1"
+}

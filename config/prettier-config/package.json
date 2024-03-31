@@ -1,0 +1,30 @@
+{
+  "name": "@draconic/prettier-config",
+  "description": "ESLint configuration tailored for the Draconic Design System.",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/draconic-design/draconic.git",
+    "directory": "config/prettier-config"
+  },
+  "bugs": "https://github.com/draconic-design/draconic/issues",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "dragonspark",
+    "draconic",
+    "draconic-design-system",
+    "prettier"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "packageManager": "yarn@4.1.1",
+  "peerDependencies": {
+    "prettier": "^3.0.0"
+  }
+}

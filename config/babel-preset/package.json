@@ -1,0 +1,38 @@
+{
+  "name": "@draconic/babel-preset",
+  "description": "Base babel configuration for the Draconic Design System.",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/draconic-design/draconic.git",
+    "directory": "config/babel-preset"
+  },
+  "bugs": "https://github.com/draconic-design/draconic/issues",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "dragonspark",
+    "draconic",
+    "draconic-design-system",
+    "babel"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "packageManager": "yarn@4.1.1",
+  "devDependencies": {
+    "@babel/core": "^7.24.3",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-export-default-from": "^7.24.1",
+    "@babel/plugin-proposal-export-namespace-from": "^7.18.9",
+    "@babel/plugin-transform-react-constant-elements": "^7.24.1",
+    "@babel/preset-env": "^7.24.3",
+    "@babel/preset-react": "^7.24.1",
+    "@draconic/browserslist-config": "workspace:^",
+    "babel-plugin-dev-expression": "^0.2.3"
+  }
+}

@@ -1,0 +1,38 @@
+build
+dist
+es
+html
+lib
+node_modules
+ts
+umd
+
+# React
+**/storybook-static/**
+
+# Changelogs
+**/CHANGELOG.md
+
+# Generated sass files
+**/scss/vendor/**
+**/_inlined/**
+
+# Yarn
+**/.yarn/**
+
+# Generated files
+**/generated/**
+
+# Templates
+**/*.template.*
+
+# Nextjs
+.next
+
+# Upgrade
+packages/upgrade/cli.js
+
+# Accessibility Verification Testing
+**/.avt/**
+
+.eslintrc.js
