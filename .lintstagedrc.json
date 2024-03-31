@@ -1,0 +1,19 @@
+{
+  "**/*.{js,jsx,ts,tsx}": [
+    "prettier --cache --write",
+    "eslint"
+  ],
+  "**/*.scss": [
+    "prettier --cache --write",
+    "stylelint --report-needless-disables --report-invalid-scope-disables --allow-empty-input"
+  ],
+  "!(*sass).md": [
+    "prettier --cache --write"
+  ],
+  "README.md": [
+    "all-contributors generate"
+  ],
+  ".all-contributorsrc": [
+    "all-contributors generate"
+  ]
+}

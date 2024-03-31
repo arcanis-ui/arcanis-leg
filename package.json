@@ -1,0 +1,31 @@
+{
+  "name": "draconic",
+  "private": true,
+  "version": "0.0.0",
+  "repository": "git@github.com:draconic-design/draconic.git",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build --stream --prefix",
+    "format": "prettier --cache --write '**/*.{js,md,scss,ts,tsx}' '!**/{build,es,lib,storybook,ts,umd}/**'",
+    "format:diff": "prettier --list-different '**/*.{js,md,scss,ts,tsx}' '!**/{build,es,lib,storybook,ts,umd}/**'",
+    "lint": "eslint packages",
+    "lint:styles": "stylelint '**/*.scss' --report-needless-disables --report-invalid-scope-disables",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.2.1",
+    "@commitlint/config-conventional": "^19.1.0",
+    "husky": "^9.0.11",
+    "lerna": "^8.1.2",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5",
+    "stylelint": "^16.3.1"
+  },
+  "packageManager": "yarn@4.1.1"
+}
