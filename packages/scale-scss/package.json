@@ -10,7 +10,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/draconic-design/draconic.git",
-    "directory": "config/eslint-config"
+    "directory": "packages/scale-scss"
   },
   "bugs": "https://github.com/draconic-design/draconic/issues",
   "files": [
