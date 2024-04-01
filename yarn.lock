@@ -51,17 +51,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@arcanis-ui/colors@workspace:packages/colors":
-  version: 0.0.0-use.local
-  resolution: "@arcanis-ui/colors@workspace:packages/colors"
-  dependencies:
-    "@arcanis-ui/prettier-config": "workspace:*"
-    "@arcanis-ui/prismatic": "workspace:*"
-    "@arcanis-ui/scss-forge": "workspace:*"
-    prettier: "npm:^3.2.5"
-  languageName: unknown
-  linkType: soft
-
 "@arcanis-ui/eslint-config@workspace:config/eslint-config":
   version: 0.0.0-use.local
   resolution: "@arcanis-ui/eslint-config@workspace:config/eslint-config"
@@ -93,7 +82,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@arcanis-ui/prettier-config@workspace:*, @arcanis-ui/prettier-config@workspace:config/prettier-config":
+"@arcanis-ui/prettier-config@workspace:config/prettier-config":
   version: 0.0.0-use.local
   resolution: "@arcanis-ui/prettier-config@workspace:config/prettier-config"
   peerDependencies:
@@ -101,7 +90,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@arcanis-ui/prismatic@workspace:*, @arcanis-ui/prismatic@workspace:packages/prismatic":
+"@arcanis-ui/prismatic@workspace:packages/prismatic":
   version: 0.0.0-use.local
   resolution: "@arcanis-ui/prismatic@workspace:packages/prismatic"
   dependencies:
@@ -109,7 +98,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@arcanis-ui/scss-forge@workspace:*, @arcanis-ui/scss-forge@workspace:packages/scss-forge":
+"@arcanis-ui/scss-forge@workspace:packages/scss-forge":
   version: 0.0.0-use.local
   resolution: "@arcanis-ui/scss-forge@workspace:packages/scss-forge"
   dependencies:
