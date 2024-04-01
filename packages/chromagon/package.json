@@ -1,0 +1,40 @@
+{
+  "name": "@draconic/chromagon",
+  "description": "Efficient APCA-compatible, aesthetically-pleasing color shades palette generation.",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/draconic-design/draconic.git",
+    "directory": "packages/chromagon"
+  },
+  "bugs": "https://github.com/draconic-design/draconic/issues",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "dragonspark",
+    "draconic",
+    "draconic-design-system",
+    "color",
+    "codegen",
+    "palette"
+  ],
+  "scripts": {
+    "build": "tsc && vite build",
+    "test": "vitest run",
+    "test:watch": "vitest watch"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "packageManager": "yarn@4.1.1",
+  "dependencies": {
+    "colorjs.io": "^0.5.0"
+  }
+}
