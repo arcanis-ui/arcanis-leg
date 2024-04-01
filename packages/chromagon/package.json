@@ -1,6 +1,6 @@
 {
-  "name": "@draconic/scale-scss",
-  "description": "Dynamically generate SCSS stylesheets from JavaScript schemas for efficient, scalable styling workflows.",
+  "name": "@draconic/chromagon",
+  "description": "Efficient APCA-compatible, aesthetically-pleasing color shades palette generation.",
   "version": "1.0.0",
   "license": "Apache-2.0",
   "main": "./dist/index.cjs",
@@ -10,7 +10,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/draconic-design/draconic.git",
-    "directory": "packages/scale-scss"
+    "directory": "packages/chromagon"
   },
   "bugs": "https://github.com/draconic-design/draconic/issues",
   "files": [
@@ -20,9 +20,9 @@
     "dragonspark",
     "draconic",
     "draconic-design-system",
-    "scss",
+    "color",
     "codegen",
-    "js-to-scss"
+    "palette"
   ],
   "scripts": {
     "build": "tsc && vite build",
@@ -35,6 +35,6 @@
   },
   "packageManager": "yarn@4.1.1",
   "dependencies": {
-    "prettier": "^3.2.5"
+    "colorjs.io": "^0.5.0"
   }
 }
