@@ -12,8 +12,7 @@
     <img alt="License: Apache-2.0" src="https://img.shields.io/badge/LICENSE-Apache--2.0-blue?style=for-the-badge">
 </p>
 
-> _**Draconic** is a design system built by DragonSpark._ > _The system consists of working code, design tools_
-> _and resources, human interface guidelines, and additional_ > _code-base tools for faster design and prototyping._
+> _**Draconic** is a design system built by DragonSpark. The system consists of working code, design tools and resources, human interface guidelines, and additional code-based tools for faster design and prototyping._
 
 ## ✨ Getting started
 

@@ -17,7 +17,7 @@
   ],
   "scripts": {
     "build": "lerna run build --stream --prefix",
-    "format": "prettier --cache --write '**/*.{js,md,scss,ts,tsx}' '!**/{build,es,lib,storybook,ts,umd}/**'",
+    "format": "prettier --cache --write '**/*.{js,md,scss,ts,tsx,md}' '!**/{build,es,lib,storybook,ts,umd}/**'",
     "format:diff": "prettier --list-different '**/*.{js,md,scss,ts,tsx}' '!**/{build,es,lib,storybook,ts,umd}/**'",
     "lint": "eslint packages",
     "lint:styles": "stylelint '**/*.scss' --report-needless-disables --report-invalid-scope-disables",
