@@ -57,7 +57,7 @@ __metadata:
   dependencies:
     "@arcanis-ui/prettier-config": "workspace:*"
     "@arcanis-ui/prismatic": "workspace:*"
-    "@arcanis-ui/scale-scss": "workspace:*"
+    "@arcanis-ui/scss-forge": "workspace:*"
     prettier: "npm:^3.2.5"
   languageName: unknown
   linkType: soft
@@ -109,9 +109,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@arcanis-ui/scale-scss@workspace:*, @arcanis-ui/scale-scss@workspace:packages/scale-scss":
+"@arcanis-ui/scss-forge@workspace:*, @arcanis-ui/scss-forge@workspace:packages/scss-forge":
   version: 0.0.0-use.local
-  resolution: "@arcanis-ui/scale-scss@workspace:packages/scale-scss"
+  resolution: "@arcanis-ui/scss-forge@workspace:packages/scss-forge"
   dependencies:
     prettier: "npm:^3.2.5"
   languageName: unknown

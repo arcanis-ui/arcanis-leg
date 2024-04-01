@@ -14,7 +14,12 @@ component_management:
         branches:
           - '**'
   individual_components:
-    - component_id: scale-scss
-      name: scale-scss
+    - component_id: scss-forge
+      name: scss-forge
       paths:
-        - packages/scale-scss/**
+        - packages/scss-forge/**
+
+    - component_id: prismatic
+      name: prismatic
+      paths:
+        - packages/prismatic/**

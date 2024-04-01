@@ -6,7 +6,7 @@
 <h1 align="center">
     🐉 Arcanis
     <br/>
-    <pre>@arcanis-ui/scale-scss</pre>
+    <pre>@arcanis-ui/scss-forge</pre>
 </h1>
 
 > Development library for dynamic generation of SCSS stylesheets from JavaScript schemas for efficient, scalable styling workflows.
@@ -18,24 +18,24 @@
 
 ## ✨ Getting started
 
-To install the `@arcanis-ui/scale-scss` constant in your project, use the package manager of your choice:
+To install the `@arcanis-ui/scss-forge` constant in your project, use the package manager of your choice:
 
 Using [npm](https://www.npmjs.com/):
 
 ```shell
-npm i -D @arcanis-ui/scale-scss
+npm i -D @arcanis-ui/scss-forge
 ```
 
 Using [yarn](https://yarnpkg.com/en/):
 
 ```shell
-yarn add -D @arcanis-ui/scale-scss
+yarn add -D @arcanis-ui/scss-forge
 ```
 
 Using [pnpm](https://pnpm.io/):
 
 ```shell
-pnpm add -D @arcanis-ui/scale-scss
+pnpm add -D @arcanis-ui/scss-forge
 ```
 
 ## ⚖️ License

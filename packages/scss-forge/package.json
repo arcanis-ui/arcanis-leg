@@ -1,5 +1,5 @@
 {
-  "name": "@arcanis-ui/scale-scss",
+  "name": "@arcanis-ui/scss-forge",
   "description": "Dynamically generate SCSS stylesheets from JavaScript schemas for efficient, scalable styling workflows.",
   "version": "1.0.0",
   "license": "Apache-2.0",
@@ -10,7 +10,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/arcanis-ui/arcanis.git",
-    "directory": "packages/scale-scss"
+    "directory": "packages/scss-forge"
   },
   "bugs": "https://github.com/arcanis-ui/arcanis/issues",
   "files": [

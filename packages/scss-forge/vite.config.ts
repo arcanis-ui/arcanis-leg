@@ -6,7 +6,7 @@ import { codecovVitePlugin } from '@codecov/vite-plugin';
 import { defineConfig } from 'vite';
 
 const PKG_UNIT = 'packages';
-const PKG_NAME = 'scale-scss';
+const PKG_NAME = 'scss-forge';
 const PKG_EXTERNAL_DEPS = ['prettier'];
 
 export default defineConfig({

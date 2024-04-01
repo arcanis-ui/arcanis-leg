@@ -19,17 +19,19 @@
     <img alt="Sonar Violations" src="https://img.shields.io/sonar/violations/arcanis-ui_arcanis?server=https%3A%2F%2Fsonarcloud.io&style=for-the-badge&logo=sonarcloud&logoColor=orange">
 </p>
 
-> _**Arcanis** is a design system built by DragonSpark. The system consists of working code, design tools and resources, human interface guidelines, and additional code-based tools for faster design and prototyping._
+> _**Arcanis** is a design system built by DragonSpark. The system consists of
+> working code, design tools and resources, human interface guidelines, and
+> additional code-based tools for faster design and prototyping._
 
 ## ✨ Getting started
 
 Looking for something in specific? Here's a full list of all of our packages!
 
-| Package Name                                  | Description                                                                    |
-| --------------------------------------------- | ------------------------------------------------------------------------------ |
-| [@arcanis-ui/scss-gen](./packages/scale-scss) | Utilities for programmatic, JS-based SCSS stylesheet generation.               |
-| [@arcanis-ui/prismatic](./packages/prismatic) | Utilities for generating APCA-compliant aesthetically pleasing color palettes. |
-| [@arcanis-ui/colors](./packages/colors)       | Explore and work with Arcanis's color presets.                                 |
+| Package Name                                    | Description                                                                    |
+| ----------------------------------------------- | ------------------------------------------------------------------------------ |
+| [@arcanis-ui/scss-forge](./packages/scss-forge) | Utilities for programmatic, JS-based SCSS stylesheet generation.               |
+| [@arcanis-ui/prismatic](./packages/prismatic)   | Utilities for generating APCA-compliant aesthetically pleasing color palettes. |
+| [@arcanis-ui/colors](./packages/colors)         | Explore and work with Arcanis's color presets.                                 |
 
 ## 📚 Documentation
 
