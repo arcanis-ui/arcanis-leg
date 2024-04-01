@@ -1,0 +1,40 @@
+{
+  "name": "@draconic/scale-scss",
+  "description": "Dynamically generate SCSS stylesheets from JavaScript schemas for efficient, scalable styling workflows.",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/draconic-design/draconic.git",
+    "directory": "config/eslint-config"
+  },
+  "bugs": "https://github.com/draconic-design/draconic/issues",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "dragonspark",
+    "draconic",
+    "draconic-design-system",
+    "scss",
+    "codegen",
+    "js-to-scss"
+  ],
+  "scripts": {
+    "build": "tsc && vite build",
+    "test": "vitest run",
+    "test:watch": "vitest watch"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "packageManager": "yarn@4.1.1",
+  "dependencies": {
+    "prettier": "^3.2.5"
+  }
+}
