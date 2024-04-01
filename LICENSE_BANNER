@@ -1,0 +1,7 @@
+
+Copyright (c) DragonSpark <%= moment().format('YYYY') %>
+
+<%= pkg.name %> <%= pkg.version %> (<%= moment().format('YYYY-MM-DD') %>)
+This package is licensed under the Apache-2.0 license.
+
+May your code be mighty and your dragons ever fierce.

@@ -3,6 +3,9 @@
 packages/*/build/
 packages/*/examples/*/build/
 packages/*/dist/
+/lib
+packages/*/lib
+packages/*/examples/lib
 es
 lib
 dist

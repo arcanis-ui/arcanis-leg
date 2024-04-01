@@ -20,7 +20,7 @@ Looking for something in specific? Here's a full list of all of our packages!
 
 | Package Name                                | Description                                                                    |
 | ------------------------------------------- | ------------------------------------------------------------------------------ |
-| [@draconic/scss-gen](./packages/scss-gen)   | Utilities for programmatic, JS-based SCSS stylesheet generation.               |
+| [@draconic/scss-gen](./packages/scale-scss) | Utilities for programmatic, JS-based SCSS stylesheet generation.               |
 | [@draconic/chromagon](./packages/chromagon) | Utilities for generating APCA-compliant aesthetically pleasing color palettes. |
 | [@draconic/colors](./packages/colors)       | Explore and work with Draconic's color presets.                                |
 

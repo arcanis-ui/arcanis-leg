@@ -33,7 +33,7 @@ module.exports = {
                 `Describe titles should start with "@avt" prefix`
               ],
               test: [
-                /^(\s*(@avt-default-state||@avt-advanced-states||@avt-keyboard-nav)(\s+\S+)*\s*)$/
+                /^(\s*(@avt-default-state|@avt-advanced-states|@avt-keyboard-nav)(\s+\S+)*\s*)$/
                   .source,
                 `Test titles should start with one of the following prefixes: ${prefixesList}`
               ]
