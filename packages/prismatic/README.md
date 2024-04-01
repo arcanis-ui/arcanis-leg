@@ -6,7 +6,7 @@
 <h1 align="center">
     🐉 Arcanis
     <br/>
-    <pre>@arcanis-ui/chromagon</pre>
+    <pre>@arcanis-ui/prismatic</pre>
 </h1>
 
 > Efficient APCA-compatible, aesthetically-pleasing color shades palette generation.
@@ -18,24 +18,24 @@
 
 ## ✨ Getting started
 
-To install the `@arcanis-ui/chromagon` constant in your project, use the package manager of your choice:
+To install the `@arcanis-ui/prismatic` constant in your project, use the package manager of your choice:
 
 Using [npm](https://www.npmjs.com/):
 
 ```shell
-npm i -D @arcanis-ui/chromagon
+npm i -D @arcanis-ui/prismatic
 ```
 
 Using [yarn](https://yarnpkg.com/en/):
 
 ```shell
-yarn add -D @arcanis-ui/chromagon
+yarn add -D @arcanis-ui/prismatic
 ```
 
 Using [pnpm](https://pnpm.io/):
 
 ```shell
-pnpm add -D @arcanis-ui/chromagon
+pnpm add -D @arcanis-ui/prismatic
 ```
 
 ## ⚖️ License

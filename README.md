@@ -28,7 +28,7 @@ Looking for something in specific? Here's a full list of all of our packages!
 | Package Name                                  | Description                                                                    |
 | --------------------------------------------- | ------------------------------------------------------------------------------ |
 | [@arcanis-ui/scss-gen](./packages/scale-scss) | Utilities for programmatic, JS-based SCSS stylesheet generation.               |
-| [@arcanis-ui/chromagon](./packages/chromagon) | Utilities for generating APCA-compliant aesthetically pleasing color palettes. |
+| [@arcanis-ui/prismatic](./packages/prismatic) | Utilities for generating APCA-compliant aesthetically pleasing color palettes. |
 | [@arcanis-ui/colors](./packages/colors)       | Explore and work with Arcanis's color presets.                                 |
 
 ## 📚 Documentation

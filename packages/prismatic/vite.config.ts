@@ -6,7 +6,7 @@ import { codecovVitePlugin } from '@codecov/vite-plugin';
 import { defineConfig } from 'vite';
 
 const PKG_UNIT = 'packages';
-const PKG_NAME = 'chromagon';
+const PKG_NAME = 'prismatic';
 const PKG_EXTERNAL_DEPS = ['colorjs.io'];
 
 export default defineConfig({

@@ -51,20 +51,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@arcanis-ui/chromagon@workspace:*, @arcanis-ui/chromagon@workspace:packages/chromagon":
-  version: 0.0.0-use.local
-  resolution: "@arcanis-ui/chromagon@workspace:packages/chromagon"
-  dependencies:
-    colorjs.io: "npm:^0.5.0"
-  languageName: unknown
-  linkType: soft
-
 "@arcanis-ui/colors@workspace:packages/colors":
   version: 0.0.0-use.local
   resolution: "@arcanis-ui/colors@workspace:packages/colors"
   dependencies:
-    "@arcanis-ui/chromagon": "workspace:*"
     "@arcanis-ui/prettier-config": "workspace:*"
+    "@arcanis-ui/prismatic": "workspace:*"
     "@arcanis-ui/scale-scss": "workspace:*"
     prettier: "npm:^3.2.5"
   languageName: unknown
@@ -106,6 +98,14 @@ __metadata:
   resolution: "@arcanis-ui/prettier-config@workspace:config/prettier-config"
   peerDependencies:
     prettier: ^3.0.0
+  languageName: unknown
+  linkType: soft
+
+"@arcanis-ui/prismatic@workspace:*, @arcanis-ui/prismatic@workspace:packages/prismatic":
+  version: 0.0.0-use.local
+  resolution: "@arcanis-ui/prismatic@workspace:packages/prismatic"
+  dependencies:
+    colorjs.io: "npm:^0.5.0"
   languageName: unknown
   linkType: soft
 
