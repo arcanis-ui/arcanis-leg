@@ -1776,6 +1776,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@draconic/chromagon@workspace:packages/chromagon":
+  version: 0.0.0-use.local
+  resolution: "@draconic/chromagon@workspace:packages/chromagon"
+  dependencies:
+    colorjs.io: "npm:^0.5.0"
+  languageName: unknown
+  linkType: soft
+
 "@draconic/eslint-config@workspace:config/eslint-config":
   version: 0.0.0-use.local
   resolution: "@draconic/eslint-config@workspace:config/eslint-config"
@@ -5016,6 +5024,13 @@ __metadata:
   version: 2.0.20
   resolution: "colorette@npm:2.0.20"
   checksum: 10/0b8de48bfa5d10afc160b8eaa2b9938f34a892530b2f7d7897e0458d9535a066e3998b49da9d21161c78225b272df19ae3a64d6df28b4c9734c0e55bbd02406f
+  languageName: node
+  linkType: hard
+
+"colorjs.io@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "colorjs.io@npm:0.5.0"
+  checksum: 10/ac8a29e08a47be7806da1153da9dd1842d0554285597756b79bd7580ee1c092bb9ef3e51e422faa8f306b8be24cb14fea2c27aa24258555cc0801a0578e7e867
   languageName: node
   linkType: hard
 
