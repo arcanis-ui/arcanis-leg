@@ -48,7 +48,7 @@ jobs:
           cache: 'yarn'
 
       - name: Install dependencies
-        run: yarn install --immutable --immutable-cache
+        run: yarn install --immutable
 
       - name: Enforce formatting of project files
         run: yarn format:diff
@@ -68,7 +68,7 @@ jobs:
           cache: 'yarn'
 
       - name: Install dependencies
-        run: yarn install --immutable --immutable-cache
+        run: yarn install --immutable
 
       - name: Build project
         run: yarn build
