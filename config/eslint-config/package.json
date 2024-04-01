@@ -1,15 +1,15 @@
 {
-  "name": "@draconic/eslint-config",
-  "description": "ESLint configuration tailored for the Draconic Design System.",
+  "name": "@arcanis-ui/eslint-config",
+  "description": "ESLint configuration tailored for the Arcanis Design System.",
   "version": "1.0.0",
   "license": "Apache-2.0",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/draconic-design/draconic.git",
+    "url": "https://github.com/arcanis-ui/arcanis.git",
     "directory": "config/eslint-config"
   },
-  "bugs": "https://github.com/draconic-design/draconic/issues",
+  "bugs": "https://github.com/arcanis-ui/arcanis/issues",
   "files": [
     "plugins",
     "rules",
@@ -20,8 +20,8 @@
   ],
   "keywords": [
     "dragonspark",
-    "draconic",
-    "draconic-design-system",
+    "arcanis",
+    "arcanis-ui-system",
     "eslint"
   ],
   "publishConfig": {
@@ -33,6 +33,7 @@
     "eslint": "^8.0.0"
   },
   "devDependencies": {
+    "@arcanis-ui/babel-preset": "workspace:^",
     "@babel/core": "^7.24.3",
     "@babel/eslint-parser": "^7.24.1",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
@@ -43,7 +44,6 @@
     "@babel/preset-env": "^7.24.3",
     "@babel/preset-react": "^7.24.1",
     "@babel/runtime": "^7.24.1",
-    "@draconic/babel-preset": "workspace:^",
     "@typescript-eslint/eslint-plugin": "^7.4.0",
     "@typescript-eslint/parser": "^7.4.0",
     "eslint-plugin-jsdoc": "^48.2.2",

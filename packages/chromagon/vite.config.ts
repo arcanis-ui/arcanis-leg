@@ -36,7 +36,7 @@ export default defineConfig({
     codecovVitePlugin({
       enableBundleAnalysis: process.env['CODECOV_TOKEN'] !== undefined,
       uploadToken: process.env['CODECOV_TOKEN'],
-      bundleName: `@draconic/${PKG_NAME}`
+      bundleName: `@arcanis-ui/${PKG_NAME}`
     })
   ],
   build: {

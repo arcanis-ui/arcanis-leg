@@ -1,5 +1,5 @@
 {
-  "name": "@draconic/scale-scss",
+  "name": "@arcanis-ui/scale-scss",
   "description": "Dynamically generate SCSS stylesheets from JavaScript schemas for efficient, scalable styling workflows.",
   "version": "1.0.0",
   "license": "Apache-2.0",
@@ -9,17 +9,17 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/draconic-design/draconic.git",
+    "url": "https://github.com/arcanis-ui/arcanis.git",
     "directory": "packages/scale-scss"
   },
-  "bugs": "https://github.com/draconic-design/draconic/issues",
+  "bugs": "https://github.com/arcanis-ui/arcanis/issues",
   "files": [
     "dist"
   ],
   "keywords": [
     "dragonspark",
-    "draconic",
-    "draconic-design-system",
+    "arcanis",
+    "arcanis-ui-system",
     "scss",
     "codegen",
     "js-to-scss"

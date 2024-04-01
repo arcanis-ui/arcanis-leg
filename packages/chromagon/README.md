@@ -1,12 +1,12 @@
 <p align="center">
 <a href="#">
-        <img alt="Draconic Design" src="https://github.com/draconic-design/draconic/assets/51010053/54062c3a-3388-4fa8-8e49-83bb7b73ff41" width="100%" />
+        <img alt="Arcanis Design" src="https://github.com/arcanis-ui/arcanis/assets/51010053/54062c3a-3388-4fa8-8e49-83bb7b73ff41" width="100%" />
     </a>
 </p>
 <h1 align="center">
-    🐉 Draconic
+    🐉 Arcanis
     <br/>
-    <pre>@draconic/chromagon</pre>
+    <pre>@arcanis-ui/chromagon</pre>
 </h1>
 
 > Efficient APCA-compatible, aesthetically-pleasing color shades palette generation.
@@ -18,24 +18,24 @@
 
 ## ✨ Getting started
 
-To install the `@draconic/chromagon` constant in your project, use the package manager of your choice:
+To install the `@arcanis-ui/chromagon` constant in your project, use the package manager of your choice:
 
 Using [npm](https://www.npmjs.com/):
 
 ```shell
-npm i -D @draconic/chromagon
+npm i -D @arcanis-ui/chromagon
 ```
 
 Using [yarn](https://yarnpkg.com/en/):
 
 ```shell
-yarn add -D @draconic/chromagon
+yarn add -D @arcanis-ui/chromagon
 ```
 
 Using [pnpm](https://pnpm.io/):
 
 ```shell
-pnpm add -D @draconic/chromagon
+pnpm add -D @arcanis-ui/chromagon
 ```
 
 ## ⚖️ License

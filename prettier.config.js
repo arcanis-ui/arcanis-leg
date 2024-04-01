@@ -9,6 +9,6 @@
 
 'use strict';
 
-const prettierConfig = require('@draconic/prettier-config');
+const prettierConfig = require('@arcanis-ui/prettier-config');
 
 module.exports = prettierConfig;

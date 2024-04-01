@@ -8,5 +8,5 @@
  */
 
 module.exports = {
-	extends: ["@draconic/eslint-config/internal"]
+	extends: ["@arcanis-ui/eslint-config/internal"]
 };

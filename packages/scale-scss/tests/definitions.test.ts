@@ -530,7 +530,7 @@ suite('definitions', () => {
   });
 
   describe('imports', () => {
-    const path = '../draconic/dragon';
+    const path = '../arcanis/dragon';
 
     const calls = [
       ['import', t.SassImport({ path }), `@import '${path}'`],
