@@ -29,1105 +29,322 @@ export type TransformSchema = Omit<ColorSchema, 'shades'> & {
   shades: TransformShade[];
 };
 
-export const referenceSchemas: ColorSchema[] = [
-  {
-    name: 'Slate',
-    id: 'slate',
-    shades: [
-      {
-        number: 50,
-        hexcode: '#f8fafc'
-      },
-      {
-        number: 100,
-        hexcode: '#f1f5f9'
-      },
-      {
-        number: 200,
-        hexcode: '#e2e8f0'
-      },
-      {
-        number: 300,
-        hexcode: '#cbd5e1'
-      },
-      {
-        number: 400,
-        hexcode: '#94a3b8'
-      },
-      {
-        number: 500,
-        hexcode: '#64748b'
-      },
-      {
-        number: 600,
-        hexcode: '#475569'
-      },
-      {
-        number: 700,
-        hexcode: '#334155'
-      },
-      {
-        number: 800,
-        hexcode: '#1e293b'
-      },
-      {
-        number: 900,
-        hexcode: '#0f172a'
-      },
-      {
-        number: 950,
-        hexcode: '#020617'
-      }
-    ]
-  },
-  {
-    name: 'Gray',
-    id: 'gray',
-    shades: [
-      {
-        number: 50,
-        hexcode: '#f9fafb'
-      },
-      {
-        number: 100,
-        hexcode: '#f3f4f6'
-      },
-      {
-        number: 200,
-        hexcode: '#e5e7eb'
-      },
-      {
-        number: 300,
-        hexcode: '#d1d5db'
-      },
-      {
-        number: 400,
-        hexcode: '#9ca3af'
-      },
-      {
-        number: 500,
-        hexcode: '#6b7280'
-      },
-      {
-        number: 600,
-        hexcode: '#4b5563'
-      },
-      {
-        number: 700,
-        hexcode: '#374151'
-      },
-      {
-        number: 800,
-        hexcode: '#1f2937'
-      },
-      {
-        number: 900,
-        hexcode: '#111827'
-      },
-      {
-        number: 950,
-        hexcode: '#030712'
-      }
-    ]
-  },
-  {
-    name: 'Zinc',
-    id: 'zinc',
-    shades: [
-      {
-        number: 50,
-        hexcode: '#fafafa'
-      },
-      {
-        number: 100,
-        hexcode: '#f4f4f5'
-      },
-      {
-        number: 200,
-        hexcode: '#e4e4e7'
-      },
-      {
-        number: 300,
-        hexcode: '#d4d4d8'
-      },
-      {
-        number: 400,
-        hexcode: '#a1a1aa'
-      },
-      {
-        number: 500,
-        hexcode: '#71717a'
-      },
-      {
-        number: 600,
-        hexcode: '#52525b'
-      },
-      {
-        number: 700,
-        hexcode: '#3f3f46'
-      },
-      {
-        number: 800,
-        hexcode: '#27272a'
-      },
-      {
-        number: 900,
-        hexcode: '#18181b'
-      },
-      {
-        number: 950,
-        hexcode: '#09090b'
-      }
-    ]
-  },
-  {
-    name: 'Neutral',
-    id: 'neutral',
-    shades: [
-      {
-        number: 50,
-        hexcode: '#fafafa'
-      },
-      {
-        number: 100,
-        hexcode: '#f5f5f5'
-      },
-      {
-        number: 200,
-        hexcode: '#e5e5e5'
-      },
-      {
-        number: 300,
-        hexcode: '#d4d4d4'
-      },
-      {
-        number: 400,
-        hexcode: '#a3a3a3'
-      },
-      {
-        number: 500,
-        hexcode: '#737373'
-      },
-      {
-        number: 600,
-        hexcode: '#525252'
-      },
-      {
-        number: 700,
-        hexcode: '#404040'
-      },
-      {
-        number: 800,
-        hexcode: '#262626'
-      },
-      {
-        number: 900,
-        hexcode: '#171717'
-      },
-      {
-        number: 950,
-        hexcode: '#0a0a0a'
-      }
-    ]
-  },
-  {
-    name: 'Stone',
-    id: 'stone',
-    shades: [
-      {
-        number: 50,
-        hexcode: '#fafaf9'
-      },
-      {
-        number: 100,
-        hexcode: '#f5f5f4'
-      },
-      {
-        number: 200,
-        hexcode: '#e7e5e4'
-      },
-      {
-        number: 300,
-        hexcode: '#d6d3d1'
-      },
-      {
-        number: 400,
-        hexcode: '#a8a29e'
-      },
-      {
-        number: 500,
-        hexcode: '#78716c'
-      },
-      {
-        number: 600,
-        hexcode: '#57534e'
-      },
-      {
-        number: 700,
-        hexcode: '#44403c'
-      },
-      {
-        number: 800,
-        hexcode: '#292524'
-      },
-      {
-        number: 900,
-        hexcode: '#1c1917'
-      },
-      {
-        number: 950,
-        hexcode: '#0c0a09'
-      }
-    ]
-  },
-  {
-    name: 'Red',
-    id: 'red',
-    shades: [
-      {
-        number: 50,
-        hexcode: '#fef2f2'
-      },
-      {
-        number: 100,
-        hexcode: '#fee2e2'
-      },
-      {
-        number: 200,
-        hexcode: '#fecaca'
-      },
-      {
-        number: 300,
-        hexcode: '#fca5a5'
-      },
-      {
-        number: 400,
-        hexcode: '#f87171'
-      },
-      {
-        number: 500,
-        hexcode: '#ef4444'
-      },
-      {
-        number: 600,
-        hexcode: '#dc2626'
-      },
-      {
-        number: 700,
-        hexcode: '#b91c1c'
-      },
-      {
-        number: 800,
-        hexcode: '#991b1b'
-      },
-      {
-        number: 900,
-        hexcode: '#7f1d1d'
-      },
-      {
-        number: 950,
-        hexcode: '#450a0a'
-      }
-    ]
-  },
-  {
-    name: 'Orange',
-    id: 'orange',
-    shades: [
-      {
-        number: 50,
-        hexcode: '#fff7ed'
-      },
-      {
-        number: 100,
-        hexcode: '#ffedd5'
-      },
-      {
-        number: 200,
-        hexcode: '#fed7aa'
-      },
-      {
-        number: 300,
-        hexcode: '#fdba74'
-      },
-      {
-        number: 400,
-        hexcode: '#fb923c'
-      },
-      {
-        number: 500,
-        hexcode: '#f97316'
-      },
-      {
-        number: 600,
-        hexcode: '#ea580c'
-      },
-      {
-        number: 700,
-        hexcode: '#c2410c'
-      },
-      {
-        number: 800,
-        hexcode: '#9a3412'
-      },
-      {
-        number: 900,
-        hexcode: '#7c2d12'
-      },
-      {
-        number: 950,
-        hexcode: '#431407'
-      }
-    ]
-  },
-  {
-    name: 'Amber',
-    id: 'amber',
-    shades: [
-      {
-        number: 50,
-        hexcode: '#fffbeb'
-      },
-      {
-        number: 100,
-        hexcode: '#fef3c7'
-      },
-      {
-        number: 200,
-        hexcode: '#fde68a'
-      },
-      {
-        number: 300,
-        hexcode: '#fcd34d'
-      },
-      {
-        number: 400,
-        hexcode: '#fbbf24'
-      },
-      {
-        number: 500,
-        hexcode: '#f59e0b'
-      },
-      {
-        number: 600,
-        hexcode: '#d97706'
-      },
-      {
-        number: 700,
-        hexcode: '#b45309'
-      },
-      {
-        number: 800,
-        hexcode: '#92400e'
-      },
-      {
-        number: 900,
-        hexcode: '#78350f'
-      },
-      {
-        number: 950,
-        hexcode: '#451a03'
-      }
-    ]
-  },
-  {
-    name: 'Yellow',
-    id: 'yellow',
-    shades: [
-      {
-        number: 50,
-        hexcode: '#fefce8'
-      },
-      {
-        number: 100,
-        hexcode: '#fef9c3'
-      },
-      {
-        number: 200,
-        hexcode: '#fef08a'
-      },
-      {
-        number: 300,
-        hexcode: '#fde047'
-      },
-      {
-        number: 400,
-        hexcode: '#facc15'
-      },
-      {
-        number: 500,
-        hexcode: '#eab308'
-      },
-      {
-        number: 600,
-        hexcode: '#ca8a04'
-      },
-      {
-        number: 700,
-        hexcode: '#a16207'
-      },
-      {
-        number: 800,
-        hexcode: '#854d0e'
-      },
-      {
-        number: 900,
-        hexcode: '#713f12'
-      },
-      {
-        number: 950,
-        hexcode: '#422006'
-      }
-    ]
-  },
-  {
-    name: 'Lime',
-    id: 'lime',
-    shades: [
-      {
-        number: 50,
-        hexcode: '#f7fee7'
-      },
-      {
-        number: 100,
-        hexcode: '#ecfccb'
-      },
-      {
-        number: 200,
-        hexcode: '#d9f99d'
-      },
-      {
-        number: 300,
-        hexcode: '#bef264'
-      },
-      {
-        number: 400,
-        hexcode: '#a3e635'
-      },
-      {
-        number: 500,
-        hexcode: '#84cc16'
-      },
-      {
-        number: 600,
-        hexcode: '#65a30d'
-      },
-      {
-        number: 700,
-        hexcode: '#4d7c0f'
-      },
-      {
-        number: 800,
-        hexcode: '#3f6212'
-      },
-      {
-        number: 900,
-        hexcode: '#365314'
-      },
-      {
-        number: 950,
-        hexcode: '#1a2e05'
-      }
-    ]
-  },
-  {
-    name: 'Green',
-    id: 'green',
-    shades: [
-      {
-        number: 50,
-        hexcode: '#f0fdf4'
-      },
-      {
-        number: 100,
-        hexcode: '#dcfce7'
-      },
-      {
-        number: 200,
-        hexcode: '#bbf7d0'
-      },
-      {
-        number: 300,
-        hexcode: '#86efac'
-      },
-      {
-        number: 400,
-        hexcode: '#4ade80'
-      },
-      {
-        number: 500,
-        hexcode: '#22c55e'
-      },
-      {
-        number: 600,
-        hexcode: '#16a34a'
-      },
-      {
-        number: 700,
-        hexcode: '#15803d'
-      },
-      {
-        number: 800,
-        hexcode: '#166534'
-      },
-      {
-        number: 900,
-        hexcode: '#14532d'
-      },
-      {
-        number: 950,
-        hexcode: '#052e16'
-      }
-    ]
-  },
-  {
-    name: 'Emerald',
-    id: 'emerald',
-    shades: [
-      {
-        number: 50,
-        hexcode: '#ecfdf5'
-      },
-      {
-        number: 100,
-        hexcode: '#d1fae5'
-      },
-      {
-        number: 200,
-        hexcode: '#a7f3d0'
-      },
-      {
-        number: 300,
-        hexcode: '#6ee7b7'
-      },
-      {
-        number: 400,
-        hexcode: '#34d399'
-      },
-      {
-        number: 500,
-        hexcode: '#10b981'
-      },
-      {
-        number: 600,
-        hexcode: '#059669'
-      },
-      {
-        number: 700,
-        hexcode: '#047857'
-      },
-      {
-        number: 800,
-        hexcode: '#065f46'
-      },
-      {
-        number: 900,
-        hexcode: '#064e3b'
-      },
-      {
-        number: 950,
-        hexcode: '#022c22'
-      }
-    ]
-  },
-  {
-    name: 'Teal',
-    id: 'teal',
-    shades: [
-      {
-        number: 50,
-        hexcode: '#f0fdfa'
-      },
-      {
-        number: 100,
-        hexcode: '#ccfbf1'
-      },
-      {
-        number: 200,
-        hexcode: '#99f6e4'
-      },
-      {
-        number: 300,
-        hexcode: '#5eead4'
-      },
-      {
-        number: 400,
-        hexcode: '#2dd4bf'
-      },
-      {
-        number: 500,
-        hexcode: '#14b8a6'
-      },
-      {
-        number: 600,
-        hexcode: '#0d9488'
-      },
-      {
-        number: 700,
-        hexcode: '#0f766e'
-      },
-      {
-        number: 800,
-        hexcode: '#115e59'
-      },
-      {
-        number: 900,
-        hexcode: '#134e4a'
-      },
-      {
-        number: 950,
-        hexcode: '#042f2e'
-      }
-    ]
-  },
-  {
-    name: 'Cyan',
-    id: 'cyan',
-    shades: [
-      {
-        number: 50,
-        hexcode: '#ecfeff'
-      },
-      {
-        number: 100,
-        hexcode: '#cffafe'
-      },
-      {
-        number: 200,
-        hexcode: '#a5f3fc'
-      },
-      {
-        number: 300,
-        hexcode: '#67e8f9'
-      },
-      {
-        number: 400,
-        hexcode: '#22d3ee'
-      },
-      {
-        number: 500,
-        hexcode: '#06b6d4'
-      },
-      {
-        number: 600,
-        hexcode: '#0891b2'
-      },
-      {
-        number: 700,
-        hexcode: '#0e7490'
-      },
-      {
-        number: 800,
-        hexcode: '#155e75'
-      },
-      {
-        number: 900,
-        hexcode: '#164e63'
-      },
-      {
-        number: 950,
-        hexcode: '#083344'
-      }
-    ]
-  },
-  {
-    name: 'Sky',
-    id: 'sky',
-    shades: [
-      {
-        number: 50,
-        hexcode: '#f0f9ff'
-      },
-      {
-        number: 100,
-        hexcode: '#e0f2fe'
-      },
-      {
-        number: 200,
-        hexcode: '#bae6fd'
-      },
-      {
-        number: 300,
-        hexcode: '#7dd3fc'
-      },
-      {
-        number: 400,
-        hexcode: '#38bdf8'
-      },
-      {
-        number: 500,
-        hexcode: '#0ea5e9'
-      },
-      {
-        number: 600,
-        hexcode: '#0284c7'
-      },
-      {
-        number: 700,
-        hexcode: '#0369a1'
-      },
-      {
-        number: 800,
-        hexcode: '#075985'
-      },
-      {
-        number: 900,
-        hexcode: '#0c4a6e'
-      },
-      {
-        number: 950,
-        hexcode: '#082f49'
-      }
-    ]
-  },
-  {
-    name: 'Blue',
-    id: 'blue',
-    shades: [
-      {
-        number: 50,
-        hexcode: '#eff6ff'
-      },
-      {
-        number: 100,
-        hexcode: '#dbeafe'
-      },
-      {
-        number: 200,
-        hexcode: '#bfdbfe'
-      },
-      {
-        number: 300,
-        hexcode: '#93c5fd'
-      },
-      {
-        number: 400,
-        hexcode: '#60a5fa'
-      },
-      {
-        number: 500,
-        hexcode: '#3b82f6'
-      },
-      {
-        number: 600,
-        hexcode: '#2563eb'
-      },
-      {
-        number: 700,
-        hexcode: '#1d4ed8'
-      },
-      {
-        number: 800,
-        hexcode: '#1e40af'
-      },
-      {
-        number: 900,
-        hexcode: '#1e3a8a'
-      },
-      {
-        number: 950,
-        hexcode: '#172554'
-      }
-    ]
-  },
-  {
-    name: 'Indigo',
-    id: 'indigo',
-    shades: [
-      {
-        number: 50,
-        hexcode: '#eef2ff'
-      },
-      {
-        number: 100,
-        hexcode: '#e0e7ff'
-      },
-      {
-        number: 200,
-        hexcode: '#c7d2fe'
-      },
-      {
-        number: 300,
-        hexcode: '#a5b4fc'
-      },
-      {
-        number: 400,
-        hexcode: '#818cf8'
-      },
-      {
-        number: 500,
-        hexcode: '#6366f1'
-      },
-      {
-        number: 600,
-        hexcode: '#4f46e5'
-      },
-      {
-        number: 700,
-        hexcode: '#4338ca'
-      },
-      {
-        number: 800,
-        hexcode: '#3730a3'
-      },
-      {
-        number: 900,
-        hexcode: '#312e81'
-      },
-      {
-        number: 950,
-        hexcode: '#1e1b4b'
-      }
-    ]
-  },
-  {
-    name: 'Violet',
-    id: 'violet',
-    shades: [
-      {
-        number: 50,
-        hexcode: '#f5f3ff'
-      },
-      {
-        number: 100,
-        hexcode: '#ede9fe'
-      },
-      {
-        number: 200,
-        hexcode: '#ddd6fe'
-      },
-      {
-        number: 300,
-        hexcode: '#c4b5fd'
-      },
-      {
-        number: 400,
-        hexcode: '#a78bfa'
-      },
-      {
-        number: 500,
-        hexcode: '#8b5cf6'
-      },
-      {
-        number: 600,
-        hexcode: '#7c3aed'
-      },
-      {
-        number: 700,
-        hexcode: '#6d28d9'
-      },
-      {
-        number: 800,
-        hexcode: '#5b21b6'
-      },
-      {
-        number: 900,
-        hexcode: '#4c1d95'
-      },
-      {
-        number: 950,
-        hexcode: '#2e1065'
-      }
-    ]
-  },
-  {
-    name: 'Purple',
-    id: 'purple',
-    shades: [
-      {
-        number: 50,
-        hexcode: '#faf5ff'
-      },
-      {
-        number: 100,
-        hexcode: '#f3e8ff'
-      },
-      {
-        number: 200,
-        hexcode: '#e9d5ff'
-      },
-      {
-        number: 300,
-        hexcode: '#d8b4fe'
-      },
-      {
-        number: 400,
-        hexcode: '#c084fc'
-      },
-      {
-        number: 500,
-        hexcode: '#a855f7'
-      },
-      {
-        number: 600,
-        hexcode: '#9333ea'
-      },
-      {
-        number: 700,
-        hexcode: '#7e22ce'
-      },
-      {
-        number: 800,
-        hexcode: '#6b21a8'
-      },
-      {
-        number: 900,
-        hexcode: '#581c87'
-      },
-      {
-        number: 950,
-        hexcode: '#3b0764'
-      }
-    ]
-  },
-  {
-    name: 'Fuchsia',
-    id: 'fuchsia',
-    shades: [
-      {
-        number: 50,
-        hexcode: '#fdf4ff'
-      },
-      {
-        number: 100,
-        hexcode: '#fae8ff'
-      },
-      {
-        number: 200,
-        hexcode: '#f5d0fe'
-      },
-      {
-        number: 300,
-        hexcode: '#f0abfc'
-      },
-      {
-        number: 400,
-        hexcode: '#e879f9'
-      },
-      {
-        number: 500,
-        hexcode: '#d946ef'
-      },
-      {
-        number: 600,
-        hexcode: '#c026d3'
-      },
-      {
-        number: 700,
-        hexcode: '#a21caf'
-      },
-      {
-        number: 800,
-        hexcode: '#86198f'
-      },
-      {
-        number: 900,
-        hexcode: '#701a75'
-      },
-      {
-        number: 950,
-        hexcode: '#4a044e'
-      }
-    ]
-  },
-  {
-    name: 'Pink',
-    id: 'pink',
-    shades: [
-      {
-        number: 50,
-        hexcode: '#fdf2f8'
-      },
-      {
-        number: 100,
-        hexcode: '#fce7f3'
-      },
-      {
-        number: 200,
-        hexcode: '#fbcfe8'
-      },
-      {
-        number: 300,
-        hexcode: '#f9a8d4'
-      },
-      {
-        number: 400,
-        hexcode: '#f472b6'
-      },
-      {
-        number: 500,
-        hexcode: '#ec4899'
-      },
-      {
-        number: 600,
-        hexcode: '#db2777'
-      },
-      {
-        number: 700,
-        hexcode: '#be185d'
-      },
-      {
-        number: 800,
-        hexcode: '#9d174d'
-      },
-      {
-        number: 900,
-        hexcode: '#831843'
-      },
-      {
-        number: 950,
-        hexcode: '#500724'
-      }
-    ]
-  },
-  {
-    name: 'Rose',
-    id: 'rose',
-    shades: [
-      {
-        number: 50,
-        hexcode: '#fff1f2'
-      },
-      {
-        number: 100,
-        hexcode: '#ffe4e6'
-      },
-      {
-        number: 200,
-        hexcode: '#fecdd3'
-      },
-      {
-        number: 300,
-        hexcode: '#fda4af'
-      },
-      {
-        number: 400,
-        hexcode: '#fb7185'
-      },
-      {
-        number: 500,
-        hexcode: '#f43f5e'
-      },
-      {
-        number: 600,
-        hexcode: '#e11d48'
-      },
-      {
-        number: 700,
-        hexcode: '#be123c'
-      },
-      {
-        number: 800,
-        hexcode: '#9f1239'
-      },
-      {
-        number: 900,
-        hexcode: '#881337'
-      },
-      {
-        number: 950,
-        hexcode: '#4c0519'
-      }
-    ]
-  }
-];
+const shadeValues: Record<string, number[][]> = {
+  Slate: [
+    [50, 16317180],
+    [100, 15857145],
+    [200, 14870768],
+    [300, 13358561],
+    [400, 9741240],
+    [500, 6583435],
+    [600, 4674921],
+    [700, 3359061],
+    [800, 1976635],
+    [900, 988970],
+    [950, 132631]
+  ],
+  Gray: [
+    [50, 16382715],
+    [100, 15987958],
+    [200, 15067115],
+    [300, 13751771],
+    [400, 10265519],
+    [500, 7041664],
+    [600, 4937059],
+    [700, 3621201],
+    [800, 2042167],
+    [900, 1120295],
+    [950, 198418]
+  ],
+  Zinc: [
+    [50, 16448250],
+    [100, 16053493],
+    [200, 15000807],
+    [300, 13948120],
+    [400, 10592682],
+    [500, 7434618],
+    [600, 5395035],
+    [700, 4144966],
+    [800, 2565930],
+    [900, 1579035],
+    [950, 592139]
+  ],
+  Neutral: [
+    [50, 16448250],
+    [100, 16119285],
+    [200, 15066597],
+    [300, 13948116],
+    [400, 10724259],
+    [500, 7566195],
+    [600, 5395026],
+    [700, 4210752],
+    [800, 2500134],
+    [900, 1513239],
+    [950, 657930]
+  ],
+  Stone: [
+    [50, 16448249],
+    [100, 16119284],
+    [200, 15197668],
+    [300, 14078929],
+    [400, 11051678],
+    [500, 7893356],
+    [600, 5722958],
+    [700, 4472892],
+    [800, 2696484],
+    [900, 1841431],
+    [950, 789001]
+  ],
+  Red: [
+    [50, 16708338],
+    [100, 16704226],
+    [200, 16698058],
+    [300, 16557477],
+    [400, 16281969],
+    [500, 15680580],
+    [600, 14427686],
+    [700, 12131356],
+    [800, 10033947],
+    [900, 8330525],
+    [950, 4524554]
+  ],
+  Orange: [
+    [50, 16775149],
+    [100, 16772565],
+    [200, 16701354],
+    [300, 16628340],
+    [400, 16486972],
+    [500, 16347926],
+    [600, 15357964],
+    [700, 12730636],
+    [800, 10105874],
+    [900, 8138002],
+    [950, 4396039]
+  ],
+  Amber: [
+    [50, 16776171],
+    [100, 16708551],
+    [200, 16639626],
+    [300, 16569165],
+    [400, 16498468],
+    [500, 16096779],
+    [600, 14251782],
+    [700, 11817737],
+    [800, 9584654],
+    [900, 7877903],
+    [950, 4528643]
+  ],
+  Yellow: [
+    [50, 16710888],
+    [100, 16710083],
+    [200, 16707722],
+    [300, 16638023],
+    [400, 16436245],
+    [500, 15381256],
+    [600, 13273604],
+    [700, 10576391],
+    [800, 8736014],
+    [900, 7421714],
+    [950, 4333574]
+  ],
+  Lime: [
+    [50, 16252647],
+    [100, 15531211],
+    [200, 14285213],
+    [300, 12513892],
+    [400, 10741301],
+    [500, 8702998],
+    [600, 6660877],
+    [700, 5078031],
+    [800, 4153874],
+    [900, 3560212],
+    [950, 1715717]
+  ],
+  Green: [
+    [50, 15793652],
+    [100, 14482663],
+    [200, 12318672],
+    [300, 8843180],
+    [400, 4906624],
+    [500, 2278750],
+    [600, 1483594],
+    [700, 1409085],
+    [800, 1467700],
+    [900, 1332013],
+    [950, 339478]
+  ],
+  Emerald: [
+    [50, 15531509],
+    [100, 13761253],
+    [200, 11006928],
+    [300, 7268279],
+    [400, 3462041],
+    [500, 1096065],
+    [600, 366185],
+    [700, 292951],
+    [800, 417606],
+    [900, 413243],
+    [950, 142370]
+  ],
+  Teal: [
+    [50, 15793658],
+    [100, 13433841],
+    [200, 10090212],
+    [300, 6220500],
+    [400, 3003583],
+    [500, 1357990],
+    [600, 889992],
+    [700, 1013358],
+    [800, 1138265],
+    [900, 1265226],
+    [950, 274222]
+  ],
+  Cyan: [
+    [50, 15531775],
+    [100, 13630206],
+    [200, 10875900],
+    [300, 6809849],
+    [400, 2282478],
+    [500, 440020],
+    [600, 561586],
+    [700, 947344],
+    [800, 1400437],
+    [900, 1461859],
+    [950, 537412]
+  ],
+  Sky: [
+    [50, 15792639],
+    [100, 14742270],
+    [200, 12248829],
+    [300, 8246268],
+    [400, 3718648],
+    [500, 959977],
+    [600, 165063],
+    [700, 223649],
+    [800, 481669],
+    [900, 805486],
+    [950, 536393]
+  ],
+  Blue: [
+    [50, 15726335],
+    [100, 14412542],
+    [200, 12573694],
+    [300, 9684477],
+    [400, 6333946],
+    [500, 3900150],
+    [600, 2450411],
+    [700, 1920728],
+    [800, 1982639],
+    [900, 1981066],
+    [950, 1516884]
+  ],
+  Indigo: [
+    [50, 15659775],
+    [100, 14739455],
+    [200, 13095678],
+    [300, 10859772],
+    [400, 8490232],
+    [500, 6514417],
+    [600, 5195493],
+    [700, 4405450],
+    [800, 3616931],
+    [900, 3223169],
+    [950, 1973067]
+  ],
+  Violet: [
+    [50, 16118783],
+    [100, 15591934],
+    [200, 14538494],
+    [300, 12891645],
+    [400, 10980346],
+    [500, 9133302],
+    [600, 8141549],
+    [700, 7153881],
+    [800, 5972406],
+    [900, 4988309],
+    [950, 3018853]
+  ],
+  Purple: [
+    [50, 16446975],
+    [100, 15984895],
+    [200, 15324671],
+    [300, 14202110],
+    [400, 12616956],
+    [500, 11032055],
+    [600, 9647082],
+    [700, 8266446],
+    [800, 7020968],
+    [900, 5774471],
+    [950, 3868516]
+  ],
+  Fuchsia: [
+    [50, 16643327],
+    [100, 16443647],
+    [200, 16109822],
+    [300, 15772668],
+    [400, 15235577],
+    [500, 14239471],
+    [600, 12592851],
+    [700, 10624175],
+    [800, 8788367],
+    [900, 7346805],
+    [950, 4850766]
+  ],
+  Pink: [
+    [50, 16642808],
+    [100, 16574451],
+    [200, 16502760],
+    [300, 16361684],
+    [400, 16020150],
+    [500, 15485081],
+    [600, 14362487],
+    [700, 12458077],
+    [800, 10295117],
+    [900, 8591427],
+    [950, 5244708]
+  ],
+  Rose: [
+    [50, 16773618],
+    [100, 16770278],
+    [200, 16698835],
+    [300, 16622767],
+    [400, 16478597],
+    [500, 16007006],
+    [600, 14753096],
+    [700, 12456508],
+    [800, 10424889],
+    [900, 8917815],
+    [950, 4982041]
+  ]
+};
+
+/**
+ * Generate a color schema object based on the provided name and shades.
+ *
+ * @param {string} name - The name of the color schema.
+ * @param {number[][]} shades - An array of shades, where each shade is represented by [number, value].
+ * @returns {ColorSchema} The generated color schema object.
+ */
+const generateColorSchema = (
+  name: string,
+  shades: number[][]
+): ColorSchema => ({
+  name,
+  id: name.toLowerCase(),
+  shades: shades.map(([number, value]) => ({
+    number,
+    hexcode: `#${value.toString(16).padStart(6, '0')}`
+  }))
+});
+
+/**
+ * Represents all available reference color schemas.
+ *
+ * @type {ColorSchema[]}
+ * @description The `referenceSchemas` array is generated by mapping the entries of the `shadeValues` object. The base shade values
+ * are obtained from TailwindCSS's base colors.
+ * @see
+ */
+export const referenceSchemas: ColorSchema[] = Object.entries(shadeValues).map(
+  ([name, shades]) => generateColorSchema(name, shades)
+);
