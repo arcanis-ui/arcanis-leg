@@ -1,0 +1,20 @@
+coverage:
+  precision: 2
+  round: down
+  range: 80...90
+
+comment:
+  layout: 'header, diff, flags, components'
+
+component_management:
+  default_rules:
+    statuses:
+      - type: project
+        target: auto
+        branches:
+          - '**'
+  individual_components:
+    - component_id: scale-scss
+      name: scale-scss
+      paths:
+        - packages/scale-scss/**
