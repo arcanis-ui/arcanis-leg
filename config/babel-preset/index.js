@@ -17,7 +17,7 @@ module.exports = () => {
         {
           modules: false,
           targets: {
-            browsers: ['extends @draconic/browserslist-config']
+            browsers: ['extends @arcanis-ui/browserslist-config']
           }
         }
       ],

@@ -1,15 +1,15 @@
 <p align="center">
 <a href="#">
-        <img alt="Draconic Design" src="https://github.com/draconic-design/draconic/assets/51010053/54062c3a-3388-4fa8-8e49-83bb7b73ff41" width="100%" />
+        <img alt="Arcanis Design" src="https://github.com/arcanis-ui/arcanis/assets/51010053/54062c3a-3388-4fa8-8e49-83bb7b73ff41" width="100%" />
     </a>
 </p>
 <h1 align="center">
-    🐉 Draconic
+    🐉 Arcanis
     <br/>
-    <pre>@draconic/scale-scss</pre>
+    <pre>@arcanis-ui/prismatic</pre>
 </h1>
 
-> Development library for dynamic generation of SCSS stylesheets from JavaScript schemas for efficient, scalable styling workflows.
+> Efficient APCA-compatible, aesthetically-pleasing color shades palette generation.
 
 <p align="center">
     <img alt="Static Badge" src="https://img.shields.io/badge/Mantained%20with-Lerna-purple?style=for-the-badge&logo=lerna&logoColor=white">
@@ -18,24 +18,24 @@
 
 ## ✨ Getting started
 
-To install the `@draconic/scale-scss` constant in your project, use the package manager of your choice:
+To install the `@arcanis-ui/prismatic` constant in your project, use the package manager of your choice:
 
 Using [npm](https://www.npmjs.com/):
 
 ```shell
-npm i -D @draconic/scale-scss
+npm i -D @arcanis-ui/prismatic
 ```
 
 Using [yarn](https://yarnpkg.com/en/):
 
 ```shell
-yarn add -D @draconic/scale-scss
+yarn add -D @arcanis-ui/prismatic
 ```
 
 Using [pnpm](https://pnpm.io/):
 
 ```shell
-pnpm add -D @draconic/scale-scss
+pnpm add -D @arcanis-ui/prismatic
 ```
 
 ## ⚖️ License

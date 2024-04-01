@@ -224,7 +224,7 @@ export const buildPalette = (
     const finalColor = parseColor(modifiedShadeHex);
     const finalHSL = inColorSpace(finalColor, HSL);
 
-    const chromagonShade: Shade = {
+    const prismaticShade: Shade = {
       number: shade.number,
       isBase: closestColorShades.closestShadeLightness.number === shade.number,
       hex: modifiedShadeHex,
@@ -233,10 +233,10 @@ export const buildPalette = (
       oklch: representColor(inColorSpace(finalColor, OKLCH))
     };
 
-    return chromagonShade;
+    return prismaticShade;
   });
 
   const name = getClosestColorName(targetColor);
 
-  return new CompositePalette(`chromagon-${hashCode(name)}`, name, builtShades);
+  return new CompositePalette(`prismatic-${hashCode(name)}`, name, builtShades);
 };

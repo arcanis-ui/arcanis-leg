@@ -14,7 +14,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
     babelOptions: {
-      presets: ['@draconic/babel-preset']
+      presets: ['@arcanis-ui/babel-preset']
     },
     requireConfigFile: false
   },

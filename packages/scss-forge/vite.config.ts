@@ -6,8 +6,8 @@ import { codecovVitePlugin } from '@codecov/vite-plugin';
 import { defineConfig } from 'vite';
 
 const PKG_UNIT = 'packages';
-const PKG_NAME = 'chromagon';
-const PKG_EXTERNAL_DEPS = ['colorjs.io'];
+const PKG_NAME = 'scss-forge';
+const PKG_EXTERNAL_DEPS = ['prettier'];
 
 export default defineConfig({
   root: __dirname,
@@ -36,7 +36,7 @@ export default defineConfig({
     codecovVitePlugin({
       enableBundleAnalysis: process.env['CODECOV_TOKEN'] !== undefined,
       uploadToken: process.env['CODECOV_TOKEN'],
-      bundleName: `@draconic/${PKG_NAME}`
+      bundleName: `@arcanis-ui/${PKG_NAME}`
     })
   ],
   build: {

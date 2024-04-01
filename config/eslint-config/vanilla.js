@@ -15,7 +15,7 @@ module.exports = {
     ecmaVersion: 6,
     sourceType: 'script',
     babelOptions: {
-      presets: ['@draconic/babel-reset']
+      presets: ['@arcanis-ui/babel-reset']
     },
     requireConfigFile: false
   },
