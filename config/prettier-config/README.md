@@ -1,6 +1,6 @@
 <p align="center">
-    <a href="#">
-        <img alt="Draconic Design" src="https://private-user-images.githubusercontent.com/51010053/317947644-0068f584-6de0-4956-94e5-a16caadf9752.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTE4NTYzNjQsIm5iZiI6MTcxMTg1NjA2NCwicGF0aCI6Ii81MTAxMDA1My8zMTc5NDc2NDQtMDA2OGY1ODQtNmRlMC00OTU2LTk0ZTUtYTE2Y2FhZGY5NzUyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzMxVDAzMzQyNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBhYTM4OTgzZjE5NmUwZTg0ZDliODFlYTM0MDhiMjg2YTAzZmI5NDkzMjk0ODQ4YjkwZTMyNjQyN2E3NWZhNTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.VtkKgKjQW78o5GoMSCARK4QlkLemC2Cp-gkXjEzJOco" width="100%" />
+<a href="#">
+        <img alt="Draconic Design" src="https://github.com/draconic-design/draconic/assets/51010053/54062c3a-3388-4fa8-8e49-83bb7b73ff41" width="100%" />
     </a>
 </p>
 <h1 align="center">

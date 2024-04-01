@@ -56,3 +56,6 @@ package-lock.json
 
 # Playwright
 .playwright
+
+# Yarn
+.yarn/install-state.gz
