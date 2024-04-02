@@ -1,10 +1,10 @@
 <p align="center">
 <a href="#">
-        <img alt="Arcanis Design" src="https://github.com/arcanis-ui/arcanis/assets/51010053/54062c3a-3388-4fa8-8e49-83bb7b73ff41" width="100%" />
+        <img alt="Arcanis Design" src="https://github.com/arcanis-ui/arcanis/assets/51010053/7e522739-5099-4de9-a6c0-0d23de295f61" width="100%" />
     </a>
 </p>
 <h1 align="center">
-    🐉 Arcanis
+    🐺 Arcanis
     <br/>
     <pre>@arcanis-ui/browserslist-config</pre>
 </h1>
