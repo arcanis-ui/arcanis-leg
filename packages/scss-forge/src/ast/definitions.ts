@@ -7,7 +7,12 @@
  * May your code be mighty and your dragons ever fierce.
  */
 
-import { defineType, makeInvocableDefinition } from './defineType';
+import {
+  defineType,
+  InvocableTypeDefinition,
+  makeInvocableDefinition,
+  TypeDefinition
+} from './defineType';
 import {
   arrayOf,
   assertAny,
@@ -805,7 +810,15 @@ export const StyleSheet = defineType('StyleSheet', {
   }
 });
 
-export const pureTypes = {
+type PureTypes = {
+  [key: string]: TypeDefinition;
+};
+
+type InvocableTypes = {
+  [key: string]: InvocableTypeDefinition;
+};
+
+export const pureTypes: PureTypes = {
   Assignment,
   AssignmentPattern,
   AtContent,
@@ -839,7 +852,7 @@ export const pureTypes = {
   Newline
 };
 
-export const types = {
+export const types: InvocableTypes = {
   Assignment: makeInvocableDefinition(Assignment),
   AssignmentPattern: makeInvocableDefinition(AssignmentPattern),
   AtContent: makeInvocableDefinition(AtContent),
@@ -873,4 +886,4 @@ export const types = {
   Newline: makeInvocableDefinition(Newline)
 };
 
-export const definitions = Object.values(types);
+export const definitions: InvocableTypeDefinition[] = Object.values(types);

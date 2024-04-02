@@ -3,10 +3,19 @@
   "description": "Efficient APCA-compatible, aesthetically-pleasing color shades palette generation.",
   "version": "1.0.0",
   "license": "Apache-2.0",
+  "type": "module",
+  "source": "./src/index.ts",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
-  "typings": "./dist/index.d.ts",
-  "type": "module",
+  "types": "./dist/index.d.ts",
+  "targets": {
+    "main": {
+      "optimize": true
+    },
+    "module": {
+      "optimize": true
+    }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/arcanis-ui/arcanis.git",
@@ -25,7 +34,7 @@
     "palette"
   ],
   "scripts": {
-    "build": "tsc && vite build",
+    "build": "tsc && parcel build",
     "test": "vitest run",
     "test:watch": "vitest watch"
   },
