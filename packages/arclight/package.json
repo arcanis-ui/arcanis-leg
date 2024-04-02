@@ -1,0 +1,48 @@
+{
+  "name": "@arcanis-ui/arclight",
+  "description": "Beautiful, lightning fast CLI development tools.",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "type": "module",
+  "source": "./src/index.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "targets": {
+    "main": {
+      "optimize": true
+    },
+    "module": {
+      "optimize": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arcanis-ui/arcanis.git",
+    "directory": "packages/arclight"
+  },
+  "bugs": "https://github.com/arcanis-ui/arcanis/issues",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "dragonspark",
+    "arcanis",
+    "arcanis-ui-system",
+    "terminal",
+    "cli"
+  ],
+  "scripts": {
+    "build": "tsc && parcel build",
+    "test": "vitest run",
+    "test:watch": "vitest watch"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "packageManager": "yarn@4.1.1",
+  "dependencies": {
+    "@arcanis-ui/cli-chroma": "workspace:^"
+  }
+}
