@@ -40,6 +40,7 @@ export default defineConfig({
     })
   ],
   build: {
+    ssr: true,
     outDir: './dist',
     reportCompressedSize: true,
     commonjsOptions: {

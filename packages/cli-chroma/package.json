@@ -1,0 +1,39 @@
+{
+  "name": "@arcanis-ui/cli-chroma",
+  "description": "Fast and simple color utilities for CLI applications.",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arcanis-ui/arcanis.git",
+    "directory": "packages/cli-chroma"
+  },
+  "bugs": "https://github.com/arcanis-ui/arcanis/issues",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "dragonspark",
+    "arcanis",
+    "arcanis-ui-system",
+    "terminal",
+    "color"
+  ],
+  "scripts": {
+    "build": "tsc && vite build",
+    "test": "vitest run",
+    "test:watch": "vitest watch"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "packageManager": "yarn@4.1.1",
+  "dependencies": {
+    "colorjs.io": "^0.5.0"
+  }
+}

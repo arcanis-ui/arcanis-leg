@@ -23,3 +23,8 @@ component_management:
       name: prismatic
       paths:
         - packages/prismatic/**
+
+    - component_id: cli-chroma
+      name: cli-chroma
+      paths:
+        - packages/cli-chroma/**

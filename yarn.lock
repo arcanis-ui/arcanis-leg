@@ -51,6 +51,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@arcanis-ui/cli-chroma@workspace:packages/cli-chroma":
+  version: 0.0.0-use.local
+  resolution: "@arcanis-ui/cli-chroma@workspace:packages/cli-chroma"
+  dependencies:
+    colorjs.io: "npm:^0.5.0"
+  languageName: unknown
+  linkType: soft
+
 "@arcanis-ui/eslint-config@workspace:config/eslint-config":
   version: 0.0.0-use.local
   resolution: "@arcanis-ui/eslint-config@workspace:config/eslint-config"

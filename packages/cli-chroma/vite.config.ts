@@ -6,8 +6,8 @@ import { codecovVitePlugin } from '@codecov/vite-plugin';
 import { defineConfig } from 'vite';
 
 const PKG_UNIT = 'packages';
-const PKG_NAME = 'scss-forge';
-const PKG_EXTERNAL_DEPS = ['prettier'];
+const PKG_NAME = 'cli-chroma';
+const PKG_EXTERNAL_DEPS = [];
 
 export default defineConfig({
   root: __dirname,
