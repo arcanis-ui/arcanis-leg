@@ -8,8 +8,8 @@
  */
 
 import { ColorFunction } from './colorGenerator';
-import { isColorSupported } from './runtimeConstants';
 import { colorFunctions } from './colorFunctions';
+import { isColorSupported } from 'std-env';
 
 interface Colors {
   [key: string]: ColorFunction;

@@ -53,6 +53,7 @@ export default defineConfig({
     },
     emptyOutDir: true,
     rollupOptions: {
+      treeshake: 'smallest',
       external: PKG_EXTERNAL_DEPS
     }
   },

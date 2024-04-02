@@ -55,7 +55,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@arcanis-ui/cli-chroma@workspace:packages/cli-chroma"
   dependencies:
-    colorjs.io: "npm:^0.5.0"
+    std-env: "npm:^3.7.0"
   languageName: unknown
   linkType: soft
 
@@ -12854,7 +12854,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"std-env@npm:^3.5.0":
+"std-env@npm:^3.5.0, std-env@npm:^3.7.0":
   version: 3.7.0
   resolution: "std-env@npm:3.7.0"
   checksum: 10/6ee0cca1add3fd84656b0002cfbc5bfa20340389d9ba4720569840f1caa34bce74322aef4c93f046391583e50649d0cf81a5f8fe1d411e50b659571690a45f12
