@@ -32,6 +32,8 @@ export const createColors = (useColor: boolean): Colors =>
     )
   );
 
+const colors = createColors(isColorSupported);
+
 export const {
   reset,
   bold,
@@ -74,4 +76,18 @@ export const {
   bgMagentaBright,
   bgCyanBright,
   bgWhiteBright
-} = createColors(isColorSupported);
+} = colors;
+
+export type ANSIColorName = keyof typeof colors;
+
+/**
+ * Retrieves a color function based on the provided color name.
+ *
+ * @param {ANSIColorName} color - The color name to retrieve the color function for.
+ * @param {ANSIColorName} [fallback='reset'] - The fallback color name to use if the requested color is not found.
+ * @returns {ColorFunction} - The color function corresponding to the provided color name, or the fallback color function if not found.
+ */
+export const getColor = (
+  color: ANSIColorName,
+  fallback: ANSIColorName = 'reset'
+): ColorFunction => colors[color] || colors[fallback];
