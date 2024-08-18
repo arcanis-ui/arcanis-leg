@@ -238,5 +238,5 @@ export const buildPalette = (
 
   const name = getClosestColorName(targetColor);
 
-  return new CompositePalette(`prismatic-${hashCode(name)}`, name, builtShades);
+  return new CompositePalette(`prismatic${hashCode(name)}`, name, builtShades);
 };

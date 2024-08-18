@@ -22,7 +22,9 @@
     "directory": "packages/scss-forge"
   },
   "bugs": "https://github.com/arcanis-ui/arcanis/issues",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "dragonspark",
     "arcanis",
